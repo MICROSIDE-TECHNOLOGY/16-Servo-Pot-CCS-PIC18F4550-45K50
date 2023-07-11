@@ -1,0 +1,5 @@
+Compiling C:\Users\Martin Hdez\Desktop\18F4550\16 Servomotor + Potenciómetro R ---\Servomotor + Potenciómetro on 01-dic.-20 at 12:41
+>>> Warning 203 "C:\Users\Martin Hdez\Desktop\18F4550\16 Servomotor + Potenciómetro R ---\Servomotor + Potenciómetro.c" Line 48(1,1): Condition always TRUE
+      Memory usage:   ROM=1%      RAM=1% - 1%
+      0 Errors,  1 Warnings.
+Build Successful.

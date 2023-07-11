@@ -1,0 +1,89 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019-01A duty
+01B.0   SUBE
+01C     MAIN.@SCRATCH1
+01D     @delay_us1.P1
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0020AE  TIMER0_isr
+0020C2  @delay_us1
+0020E2  @cinit1
+0020E2  MAIN
+0020F4  @cinit2
+
+Project Directory:
+    C:\Users\Martin Hdez\Desktop\18F4550\16 Servomotor + Potenciómetro R ---\
+
+Project Files:
+    Servomotor + Potenciómetro.c                            [30-nov.-20 15:47  CRC=4A19CB47]
+    D:\Programas\PICC\Devices\18F4550.h                     [02-oct.-19 09:47  CRC=AFEA7A8E]
+
+Source signature=A9EEC063
+Program memory checksum=0000
+Hex file CRC=AD9A
+
+Units:
+    C:\Users\Martin Hdez\Desktop\18F4550\16 Servomotor + Potenciómetro R ---\Servomotor + Potenciómetro (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   Servomotor + Potenciómetro.xsym
+    Errors:      Servomotor + Potenciómetro.err
+    Ext Symbols: Servomotor + Potenciómetro.esym
+    INHX32:      Servomotor + Potenciómetro.hex
+    Symbols:     Servomotor + Potenciómetro.sym
+    List:        Servomotor + Potenciómetro.lst
+    Debug/COFF:  Servomotor + Potenciómetro.cof
+    Project:     Servomotor + Potenciómetro.ccspjt
+    Call Tree:   Servomotor + Potenciómetro.tre
+    Statistics:  Servomotor + Potenciómetro.STA

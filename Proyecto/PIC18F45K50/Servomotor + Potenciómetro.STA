@@ -1,0 +1,48 @@
+
+ROM used:   394/32768 (1%)
+            398/32768 (1%) including unused fragments
+
+            0.4 Average locations per line
+            16.4 Average locations per statement
+
+RAM used:   29/2048 (1%) at main() level
+            30/2048 (1%) worst case
+
+Stack used: 1 worst case (0 in main + 1 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   71    24 100  Servomotor + Potenciómetro.c
+  972     0   0  D:\Programas\PICC\Devices\18F45K50.h
+----- -----
+ 1043    24 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     32   4    1             @delay_us1
+0     20   3    0     50  1.5  TIMER0_isr
+0    172  22    1    450  4.7  MAIN
+ Inline         0    706  4.8  @cinit1
+
+Program metrics:
+    Functions               3
+    Statements              24
+    Comments                194
+    Volume (V)              1482
+    Difficulty (D)          11.1
+    Effort to implement (E) 16478
+    Time to implement (T)   15 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   8
+    Maintainability (MI)    99
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-01FFE     0  8192  
+02000-02006     4  4  
+02008-020AC   166  0  
+020AE-07FFE   224  24178  
+
+
+
