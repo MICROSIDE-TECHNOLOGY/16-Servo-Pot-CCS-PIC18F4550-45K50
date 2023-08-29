@@ -1,0 +1,31 @@
+on: [push]
+
+jobs:
+  gist-sync:
+    name: gist-sync
+    runs-on: ubuntu-latest
+    steps:
+    #PIC18F4550
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: vhperaltaj/gist-sync-action@v1.0.0
+        id: PIC18F4550
+        with:
+          auth: ${{ secrets.GIST_TOKEN }}
+          gist_url: https://gist.github.com/microside-mx/fff53c01bb8713cc491470223f2e29ea
+          gist_title: 16-ServomotorPotenciometro-CCS-4550.c
+          gist_description: Prácticas PIC CCS
+          github_file: Proyecto/PIC18F4550/Servomotor + Potenciómetro.c
+          file_encoding: WINDOWS-1252
+    #PIC18F45K50
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: vhperaltaj/gist-sync-action@v1.0.0
+        id: PIC18F45K50
+        with:
+          auth: ${{ secrets.GIST_TOKEN }}
+          gist_url: https://gist.github.com/microside-mx/3576a5cf0521ecc16c4d6bfb7692afc4
+          gist_title: 16-ServomotorPotenciometro-CCS.c
+          gist_description: Prácticas PIC CCS
+          github_file: Proyecto/PIC18F45K50/Servomotor + Potenciómetro.c
+          file_encoding: WINDOWS-1252
